@@ -3,8 +3,8 @@ rvm:
 - 1.9.3
 deploy:
   provider: heroku
-  api_key:
-    secure: WwqU3k4nDKyIl+xXHUIUP5DEehg4UcRfeUoP+Y0tSxBgcE4pTQq7uA3IXkHvidlOBydag2q1wrnwuXHHP+2XNwtOiE3GZQUGchY7pMsB+UMUA17A9ezV+cKnrGJrG3Tc0oWe4RsqP8UUM3PKAuG3rycOfA9vU5pbEHJtoYf2KLU=
   app: ffxivgreenthumb
+  api_key:
+    secure: "kRp7wahM1uVpONiTU1ktqHZmpvBs0lnoG3Q+O3EShpgGlMuHVIf63osbiwDFkT6BkGTWqyh9ZKpioIAU0txH/S1rUZSYz0XovorxtxwjRgQZGEQUzoWgF+oE59gZ1+gt50HdV1QOOK7/jEtN3sgFNP4WLrXAANyA8jDCCCI78PA="
   on:
     repo: ffxivgreenthumb/ffxivgreenthumb.com
