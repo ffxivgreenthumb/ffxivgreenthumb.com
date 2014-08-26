@@ -1,3 +1,10 @@
 language: ruby
 rvm:
-  - "1.9.3"
+- 1.9.3
+deploy:
+  provider: heroku
+  api_key:
+    secure: WwqU3k4nDKyIl+xXHUIUP5DEehg4UcRfeUoP+Y0tSxBgcE4pTQq7uA3IXkHvidlOBydag2q1wrnwuXHHP+2XNwtOiE3GZQUGchY7pMsB+UMUA17A9ezV+cKnrGJrG3Tc0oWe4RsqP8UUM3PKAuG3rycOfA9vU5pbEHJtoYf2KLU=
+  app: ffxivgreenthumb
+  on:
+    repo: ffxivgreenthumb/ffxivgreenthumb.com
